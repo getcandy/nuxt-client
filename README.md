@@ -25,6 +25,18 @@ modules: [
 }
 ```
 
+## SSR Support
+
+If you are using SSR, you will need to transpile the js client
+
+```
+build: {
+  transpile: [
+    '@getcandy/js-client'
+  ]
+}
+```
+
 ## Usage
  
 The Javascript client will be available in your components as `$getcandy`
