@@ -8,5 +8,11 @@ export default ({ app }, inject) => {
     if (options.host) {
         client.setHost(options.host)
     }
+
+    client.withCredentials()
+    client.setDefaultHeaders({
+        'X-CANDY-HUB': true,
+    })
+
     inject('getcandy', client)
 }

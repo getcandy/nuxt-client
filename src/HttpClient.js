@@ -16,6 +16,10 @@ export default class HttpClient {
         const instance = this.getApiInstance()
         instance.basePath = `${host}/api/v1`
     }
+    withCredentials () {
+        const instance = this.getApiInstance()
+        instance.enableCookies = true
+    }
     setDefaultHeaders (headers) {
         const instance = this.getApiInstance()
         instance.defaultHeaders = headers
