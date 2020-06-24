@@ -1,6 +1,6 @@
 {
     "name": "@getcandy/js-client-nuxt",
-    "version": "0.9.18",
+    "version": "0.9.19",
     "description": "",
     "main": "src/module.js",
     "scripts": {
@@ -20,6 +20,6 @@
       "webpack-cli": "^3.3.10"
     },
     "dependencies": {
-      "@getcandy/js-client": "0.9.18"
+      "@getcandy/js-client": "0.9.19"
     }
   }
