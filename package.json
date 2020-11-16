@@ -1,6 +1,6 @@
 {
   "name": "@getcandy/js-client-nuxt",
-  "version": "0.10.2",
+  "version": "0.11.0",
   "description": "",
   "main": "src/module.js",
   "scripts": {
