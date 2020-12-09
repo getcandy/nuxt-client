@@ -1,6 +1,6 @@
-import path from 'path'
+const path = require('path')
 
-export default function (moduleOptions) {
+module.exports = function (moduleOptions) {
     const templates = [
         // Store
         './HttpClient.js',
