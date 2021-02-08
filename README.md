@@ -6,14 +6,14 @@ A Nuxt.js adapter for the javascript client
 Install the package
 
 ```
-npm install @getcandy/js-client-nuxt
+npm install @getcandy/nuxt-client
 ```
 
 Add it to your nuxt.config.js file
 
 ```
 modules: [
- '@getcandy/js-client-nuxt'
+ '@getcandy/nuxt-client'
 }]
 ```
 
